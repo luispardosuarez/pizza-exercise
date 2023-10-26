@@ -13,7 +13,7 @@ let cabrales = "cabrales";
 let torreznos = "torreznos";
 
 
-function app (){
+export function app (){
     comprar();
     elaborar();
     precalentar();
@@ -41,7 +41,7 @@ function comprar() {
 }
 
 
-function elaborar() {
+export function elaborar() {
   console.log("Vamos a elaborar la pizza:");
 
   if (ingredienteMasa >= 1) {

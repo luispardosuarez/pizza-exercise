@@ -1,0 +1,60 @@
+body {
+  background-image: url(https://t4.ftcdn.net/jpg/05/99/00/79/360_F_599007953_u3IyNRlZXsZd8pMu2qSdByjDf8PcKWt7.jpg);
+  margin-top: -2%;
+}
+
+h1 {
+  background-color: rgba(0,0,0,0.7);
+  border: 3px solid white;
+  padding: 1%;
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-weight:bold;
+}
+
+#pizzaForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2%;
+}
+
+.pizzab {
+ background-color: rgba(0,0,0,0.7);
+ color: white;
+ padding: 1%;
+ font-weight: bolder;
+ padding: 2%;
+ font-size: 0.8rem;
+ margin-top: 1%;
+ margin-bottom: 2%;
+ border: 3px solid rgb(118, 117, 117);
+}
+
+#resultado {
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  border: 3px solid white;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: -3%;
+}
+
+#pizzaSelect {
+  background-color: rgba(0,0,0,0.7);
+  padding: 0.5%;
+  color:white;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  margin-bottom: 5.3%;
+  text-align: center;
+  border: 2px solid rgb(118, 117, 117);
+}
+
+.secondary {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-bottom: 4.9%;
+}

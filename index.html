@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="icon" type="image/jpg" href="./public/assets/pizza.png">
+    <title>I Love Pizza</title>
+</head>
+<body>
+    <main>
+        <h1>I love pizza</h1>
+        <form id="pizzaForm">
+            <select id="pizzaSelect">
+              <option value="" disabled selected>Selecciona una pizza</option>
+            </select>
+            <div class="secondary">
+              <button class="pizzab" type="button" onclick="mostrarIngredientes()">Mostrar Ingredientes</button>
+              <button class="pizzab" type="button" onclick="prepararPizza()">Preparar Pizza</button>
+            </div>
+            </form>
+        
+        <div id="resultado"></div>
+
+    </main>
+    <script src="./src/js/ilovepizzaapp.js"></script>
+</body>
+</html>

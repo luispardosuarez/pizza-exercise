@@ -124,9 +124,6 @@ export function elaborarMontaniesa() {
     }
   
 
-
-
-
 export function precalentar() {
 
     if (ingredienteMasa >=1) {
